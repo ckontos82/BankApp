@@ -43,4 +43,13 @@ public class User extends IdentifiableEntity{
     public void setSsn(String ssn) {
         this.ssn = ssn;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "firstname='" + firstname + '\'' +
+                ", lastname='" + lastname + '\'' +
+                ", ssn='" + ssn + '\'' +
+                '}';
+    }
 }
