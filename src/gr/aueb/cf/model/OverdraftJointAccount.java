@@ -1,6 +1,5 @@
 package gr.aueb.cf.model;
 
-import gr.aueb.cf.exceptions.InsufficientBalanceException;
 import gr.aueb.cf.exceptions.NegativeAmountException;
 import gr.aueb.cf.exceptions.SsnNotValidException;
 
