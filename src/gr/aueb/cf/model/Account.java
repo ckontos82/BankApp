@@ -5,7 +5,7 @@ import gr.aueb.cf.exceptions.NegativeAmountException;
 import gr.aueb.cf.exceptions.SsnNotValidException;
 
 public class Account extends IdentifiableEntity{
-    private User holder;
+    private User holder = new User();
     private String iban;
     private double balance;
 
